@@ -15,6 +15,10 @@ class Settings(BaseSettings):
     log_max_bytes: int = 50 * 1024 * 1024 # 50MiB
     log_backup_count: int = 30 # 최대 30개의 로그 파일 백업
 
+    # db 설정
+    database_url: str
+    database_echo: bool = False
+
     #SettingsConfigDict: 설정파일을 읽는 방식 정의
     model_config = SettingsConfigDict(
         env_file=".env",

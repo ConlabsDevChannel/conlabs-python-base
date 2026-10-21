@@ -1,5 +1,7 @@
 import logging
 
+from contextlib import asynccontextmanager
+
 from fastapi import FastAPI, HTTPException
 from fastapi.exceptions import RequestValidationError
 
@@ -12,10 +14,28 @@ from app.core.exception.handlers import (
     validation_exception_handler,
     unhandled_exception_handler
 )
+from app.core.database.engine import create_db_engine
+from app.core.database.session import create_session_factory
 
 from app.modules.sample import router
 
 logger = logging.getLogger(__name__)
+
+@asynccontextmanager
+async def lifespan(app: FastAPI):
+    settings = get_settings()
+
+    engine = create_db_engine(
+        database_url=settings.database_url,
+        echo=settings.database_echo,
+    )
+
+    app.state.db_session_factory = create_session_factory(engine)
+
+    try:
+        yield
+    finally:
+        await engine.dispose()
 
 def create_app() -> FastAPI:
     # core/config.py에서 설정한 세팅 가지고 오기
@@ -36,6 +56,7 @@ def create_app() -> FastAPI:
         # env에 설정된 항목을 여기에서 집어넣음
         title=settings.app_name,
         debug=settings.debug,
+        lifespan=lifespan,
     )
 
     # 예외처리 핸들러 추가

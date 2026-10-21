@@ -30,6 +30,11 @@ uv init --bare
 - concurrent-log-handler
 - pytest
 - httpx
+- SQLAlchemy(asyncio)
+- alembic
+- aiosqlite (SQLite 비동기)
+- asyncmy (MySQL/MariaDB 비동기)
+- asyncpg (PostgreSQL 비동기)
 
 #### 명령어
 ```shell
@@ -41,6 +46,14 @@ uv add pytest httpx
 - 테스트 중 오류 확인으로 `httpx2`를 개발용으로 저장
 ```shell
 uv add --dev httpx2
+```
+- SQL 비동기 처리
+```shell
+uv add "sqlalchemy[asyncio]" alembic
+```
+- DB 커넥션 라이브러리
+```
+uv add aiosqlite asyncmy asyncpg
 ```
 
 ### 3. 사용 폴더 구조
