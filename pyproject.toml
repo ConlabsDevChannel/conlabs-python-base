@@ -1,0 +1,22 @@
+[project]
+name = "conlabs-python-base"
+version = "0.1.0"
+requires-python = ">=3.14"
+dependencies = [
+    "concurrent-log-handler>=0.9.30",
+    "fastapi>=0.156.4",
+    "httpx>=0.28.1",
+    "pydantic-settings>=2.16.1",
+    "pytest>=9.1.1",
+    "uvicorn>=0.54.0",
+]
+
+# 경로를 잡지 못할 때 처리
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+
+[dependency-groups]
+dev = [
+    "httpx2>=2.15.1",
+]
