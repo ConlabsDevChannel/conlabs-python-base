@@ -114,3 +114,9 @@ packages = ["src/app"]
 ```shell
 uv run pytest tests/core/test_http.py -v
 ```
+
+- LLM 통신을 위한 스트리밍 client 추가
+- 마찬가지로 테스트는 아래 명령어로 처리
+```shell
+uv run pytest tests/core/test_http_streaming.py -v
+```
