@@ -52,8 +52,12 @@ uv add --dev httpx2
 uv add "sqlalchemy[asyncio]" alembic
 ```
 - DB 커넥션 라이브러리
-```
+```shell
 uv add aiosqlite asyncmy asyncpg
+```
+- HTTP Client 테스트
+```shell
+uv add --dev pytest-asyncio
 ```
 
 ### 3. 사용 폴더 구조
@@ -92,3 +96,21 @@ INFO:     Application startup complete.
 - `logback-spring.xml`을 기반으로 작업
 - 이 프로젝트에서는 일단위 로깅 및 로그 파일 크기 제한을 적용하고자 함
 - 날짜와 용량을 동시에 처리하기 위해 외부 라이브러리 `concurrent-log-handler`을 이용
+
+### 6. HTTP Client
+- httpx2 기반
+- 더미 테스트를 애용해 처리
+- pytest-asyncio 추가
+- test 중에 안되는건, 기존 toml에 설정했던 `tool.pytest.ini_options`과 다르게 테스트함, 아래 설정을 해야 함
+```
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/app"]
+```
+- 위 추가 후 `uv sync`, 이 이후에는 아래 설정으로 테스트 가능
+```shell
+uv run pytest tests/core/test_http.py -v
+```

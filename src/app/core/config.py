@@ -19,6 +19,11 @@ class Settings(BaseSettings):
     database_url: str
     database_echo: bool = False
 
+    # httpx2 클라이언트 설정
+    http_timeout: float = 30.0 # 타임아웃
+    http_max_connections: int = 100 # 최대 커넥션 수
+    http_max_keepalive_connections: int = 20 # 유지 커넥션 수
+
     #SettingsConfigDict: 설정파일을 읽는 방식 정의
     model_config = SettingsConfigDict(
         env_file=".env",

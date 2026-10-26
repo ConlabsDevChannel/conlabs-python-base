@@ -32,10 +32,19 @@ async def lifespan(app: FastAPI):
 
     app.state.db_session_factory = create_session_factory(engine)
 
-    try:
-        yield
-    finally:
-        await engine.dispose()
+    # DB lifespan에 연결
+
+    async with create_http_client(
+        timeout=settings.http_timeout,
+        max_connections=settings.http_max_connections,
+        max_keepalive_connections=settings.http_max_keepalive_connections,
+    ) as http_client:
+        app.state.http_client = http_client
+
+        try:
+            yield
+        finally:
+            await engine.dispose()
 
 def create_app() -> FastAPI:
     # core/config.py에서 설정한 세팅 가지고 오기

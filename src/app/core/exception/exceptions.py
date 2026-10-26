@@ -15,3 +15,13 @@ class AppException(Exception):
         self.code = code
         self.message = message
         self.status_code = status_code
+
+# HttpClient에서 오류 발생 시 처리
+class HttpClientException(Exception):
+    def __init__(
+        self,
+        message: str,
+        url: str | None = None,
+    ):
+        super().__init__(message)
+        self.url = url
