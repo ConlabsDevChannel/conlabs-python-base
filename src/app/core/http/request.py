@@ -3,6 +3,7 @@ import logging
 import httpx2
 
 from app.core.exception.exceptions import HttpClientException
+from app.core.http.headers import build_request_headers
 
 logger = logging.getLogger(__name__)
 
@@ -10,12 +11,22 @@ async def send_request(
     client: httpx2.AsyncClient,
     method: str,
     url: str,
+    *,
+    propagate_trace: bool = False,
     **kwargs,
 ) -> httpx2.Response:
+
+    # Header 선 구성
+    headers = build_request_headers(
+        headers=kwargs.pop("headers", None),
+        propagate_trace=propagate_trace
+    )
+    
     try:
         response = await client.request(
             method=method,
             url=url,
+            headers=headers,
             **kwargs,
         )
 

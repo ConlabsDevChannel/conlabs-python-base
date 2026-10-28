@@ -4,6 +4,7 @@ import httpx2
 
 from collections.abc import AsyncIterator
 from app.core.exception.exceptions import HttpClientException
+from app.core.http.headers import build_request_headers
 
 logger = logging.getLogger(__name__)
 
@@ -11,12 +12,21 @@ async def stream_request(
     client: httpx2.AsyncClient,
     method: str,
     url: str,
+    *,
+    propagate_trace: bool = False,
     **kwargs,
 ) -> AsyncIterator[bytes]:
+
+    headers = build_request_headers (
+        headers=kwargs.pop("headers", None),
+        propagate_trace=propagate_trace
+    )
+    
     try:
         async with client.stream(
             method=method,
             url=url,
+            headers=headers,
             **kwargs,
         ) as response:
             response.raise_for_status()

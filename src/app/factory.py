@@ -19,6 +19,7 @@ from app.core.database.session import create_session_factory
 from app.core.database.migration import auto_upgrade_database
 
 from app.core.middleware.cors import setup_core
+from app.core.middleware.trace import setup_tracing
 
 from app.core.http.client import create_http_client
 
@@ -99,6 +100,9 @@ def create_app() -> FastAPI:
         Exception,
         unhandled_exception_handler,
     )
+
+    # Trace ID 및 요청 로깅
+    setup_tracing(app)
 
     # CORS 등록
     setup_core(

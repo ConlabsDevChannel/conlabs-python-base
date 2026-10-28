@@ -145,3 +145,24 @@ uv run --extra mysql alembic revision --autogenerate -m "변경 내용"
 # 생성된 스크립트를 검토한 후 DB에 반영
 uv run --extra mysql alembic upgrade head
 ```
+
+### 8. header의 X-Trace-ID
+- 내부 API 호출에만 지정
+- 내부 호출시에는 아래와 같이 호출
+```python
+response = await send_request(
+    client=client,
+    method="POST",
+    url="http://ocr-service:8000/api/v1/ocr",
+    json={"image": image_data},
+    propagate_trace=True,
+)
+```
+- 외부 API 호출시는
+```python
+response = await send_request(
+    client=client,
+    method="GET",
+    url="https://example.com/api/data",
+)
+```

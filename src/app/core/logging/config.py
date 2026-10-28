@@ -4,6 +4,7 @@ from pathlib import Path
 LOG_FORMAT = (
     "[%(asctime)s]"
     "[%(levelname)-5s] "
+    "[trace=%(trace_id)s] "
     "%(process)d "
     "[%(threadName)s]"
     "[%(name)s:%(lineno)d] "
@@ -35,13 +36,20 @@ def setup_logging(
                 "datefmt": "%Y-%m-%d %H:%M:%S"
             },
         },
+                #Trace ID용 필터
+        "filters": {
+            "trace_id": {
+                "()": "app.core.logging.filters.TraceIdFilter"
+            }
+        },
 
         "handlers": {
             "console": {
                 "class": "logging.StreamHandler",
                 "level": "DEBUG",
                 "formatter": "default",
-                "stream": "ext://sys.stdout"
+                "stream": "ext://sys.stdout",
+                "filters": ["trace_id"],
             },
             "file": {
                 "class": (
@@ -57,6 +65,7 @@ def setup_logging(
                 "backupCount": backup_count,
                 "encoding": "utf-8",
                 "use_gzip": False,
+                "filters": ["trace_id"],
             },
         },
 
