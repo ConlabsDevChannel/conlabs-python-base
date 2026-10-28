@@ -16,14 +16,23 @@ from app.core.exception.handlers import (
 )
 from app.core.database.engine import create_db_engine
 from app.core.database.session import create_session_factory
+from app.core.database.migration import auto_upgrade_database
 
-from app.modules.sample import router
+from app.core.http.client import create_http_client
+
+# 공용 라우터 등록
+from app.router import router as api_router
 
 logger = logging.getLogger(__name__)
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
     settings = get_settings()
+
+    # 마이그레이션은 DB엔진 생성 전
+    await auto_upgrade_database(
+        enabled=settings.db_migration_auto_upgrade,
+    )
 
     engine = create_db_engine(
         database_url=settings.database_url,
@@ -33,7 +42,6 @@ async def lifespan(app: FastAPI):
     app.state.db_session_factory = create_session_factory(engine)
 
     # DB lifespan에 연결
-
     async with create_http_client(
         timeout=settings.http_timeout,
         max_connections=settings.http_max_connections,
@@ -89,6 +97,7 @@ def create_app() -> FastAPI:
         unhandled_exception_handler,
     )
 
-    app.include_router(router)
+    # 공용 라우터
+    app.include_router(api_router)
 
     return app

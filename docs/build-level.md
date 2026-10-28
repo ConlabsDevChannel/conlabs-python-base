@@ -59,6 +59,10 @@ uv add aiosqlite asyncmy asyncpg
 ```shell
 uv add --dev pytest-asyncio
 ```
+- DB 마이그레이션 (Alembic)
+```shell
+uv add alembic
+```
 
 ### 3. 사용 폴더 구조
 <pre>
@@ -119,4 +123,25 @@ uv run pytest tests/core/test_http.py -v
 - 마찬가지로 테스트는 아래 명령어로 처리
 ```shell
 uv run pytest tests/core/test_http_streaming.py -v
+```
+
+### 7. DB에서의 Alembic (DB 구조 자동 마이그레이션)
+- SI 프로젝트 등에서는 DB 구조를 먼저 잡고 개발
+- 이로 인해 소스에서 먼저 작업하면 예상치 못한 일이 발생할 수 있기에 기본은 수동으로 처리
+- Alembic은 CLI 환경에서 처리
+```shell
+uv run alembic init -t async migrations
+```
+- 초기 화 중, DLL 로드 문제로 asyncmy에서 aiomysql로 전환
+```shell
+uv add --optional mysql aiomysql
+```
+- 주소 또한 aiomysql로 변경
+- 마이그레이션은 아래 명령어로 실행
+```
+# ORM 모델 변경사항을 기반으로 마이그레이션 생성
+uv run --extra mysql alembic revision --autogenerate -m "변경 내용"
+
+# 생성된 스크립트를 검토한 후 DB에 반영
+uv run --extra mysql alembic upgrade head
 ```

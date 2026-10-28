@@ -34,7 +34,7 @@ sqlite = [
     "aiosqlite",
 ]
 mysql = [
-    "asyncmy",
+    "aiomysql>=0.3.2",
 ]
 postgres = [
     "asyncpg",

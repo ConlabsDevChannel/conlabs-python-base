@@ -18,6 +18,8 @@ class Settings(BaseSettings):
     # db 설정
     database_url: str
     database_echo: bool = False
+    # db.alembic 설정
+    db_migration_auto_upgrade: bool = False # 마이그레이션 자동 실행 안함
 
     # httpx2 클라이언트 설정
     http_timeout: float = 30.0 # 타임아웃
