@@ -18,8 +18,11 @@ from app.core.database.engine import create_db_engine
 from app.core.database.session import create_session_factory
 from app.core.database.migration import auto_upgrade_database
 
+from app.core.middleware.cors import setup_core
+
 from app.core.http.client import create_http_client
 
+from app.health import router as health_router
 # 공용 라우터 등록
 from app.router import router as api_router
 
@@ -97,7 +100,17 @@ def create_app() -> FastAPI:
         unhandled_exception_handler,
     )
 
+    # CORS 등록
+    setup_core(
+        app=app,
+        origins=settings.cors_origins,
+        allow_credentials=settings.cors_allow_credentials,
+    )
+
+    # 헬스체크용 라우터 등록
+    app.include_router(health_router)
+
     # 공용 라우터
-    app.include_router(api_router)
+    app.include_router(api_router, prefix="/api")
 
     return app

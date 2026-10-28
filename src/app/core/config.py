@@ -26,6 +26,10 @@ class Settings(BaseSettings):
     http_max_connections: int = 100 # 최대 커넥션 수
     http_max_keepalive_connections: int = 20 # 유지 커넥션 수
 
+    # CORS 설정
+    cors_origins: list[str] = [] # 허용할 Front 주소 목록
+    cors_allow_credentials: bool = False # 쿠키 등의 자격 증명 포함한 교차 출처 요청 허용 여부
+
     #SettingsConfigDict: 설정파일을 읽는 방식 정의
     model_config = SettingsConfigDict(
         env_file=".env",

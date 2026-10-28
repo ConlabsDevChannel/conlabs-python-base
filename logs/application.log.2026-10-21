@@ -1,0 +1,695 @@
+[2026-10-21 11:59:02][INFO ] 30112 [MainThread][uvicorn.error:103] Started server process [30112]
+[2026-10-21 11:59:02][INFO ] 30112 [MainThread][uvicorn.error:48] Waiting for application startup.
+[2026-10-21 11:59:02][INFO ] 30112 [MainThread][uvicorn.error:62] Application startup complete.
+[2026-10-21 11:59:06][INFO ] 30112 [MainThread][uvicorn.error:282] Shutting down
+[2026-10-21 11:59:07][INFO ] 30112 [MainThread][uvicorn.error:67] Waiting for application shutdown.
+[2026-10-21 11:59:07][INFO ] 30112 [MainThread][uvicorn.error:76] Application shutdown complete.
+[2026-10-21 11:59:07][INFO ] 30112 [MainThread][uvicorn.error:113] Finished server process [30112]
+[2026-10-21 11:59:12][INFO ] 32780 [MainThread][uvicorn.error:103] Started server process [32780]
+[2026-10-21 11:59:12][INFO ] 32780 [MainThread][uvicorn.error:48] Waiting for application startup.
+[2026-10-21 11:59:12][INFO ] 32780 [MainThread][uvicorn.error:62] Application startup complete.
+[2026-10-21 11:59:39][INFO ] 32780 [MainThread][uvicorn.error:282] Shutting down
+[2026-10-21 11:59:39][INFO ] 32780 [MainThread][uvicorn.error:67] Waiting for application shutdown.
+[2026-10-21 11:59:39][INFO ] 32780 [MainThread][uvicorn.error:76] Application shutdown complete.
+[2026-10-21 11:59:39][INFO ] 32780 [MainThread][uvicorn.error:113] Finished server process [32780]
+[2026-10-21 11:59:47][INFO ] 33076 [MainThread][uvicorn.error:103] Started server process [33076]
+[2026-10-21 11:59:47][INFO ] 33076 [MainThread][uvicorn.error:48] Waiting for application startup.
+[2026-10-21 11:59:47][INFO ] 33076 [MainThread][uvicorn.error:62] Application startup complete.
+[2026-10-21 12:00:20][INFO ] 33076 [MainThread][uvicorn.error:282] Shutting down
+[2026-10-21 12:00:20][INFO ] 33076 [MainThread][uvicorn.error:67] Waiting for application shutdown.
+[2026-10-21 12:00:20][INFO ] 33076 [MainThread][uvicorn.error:76] Application shutdown complete.
+[2026-10-21 12:00:20][INFO ] 33076 [MainThread][uvicorn.error:113] Finished server process [33076]
+[2026-10-21 12:00:20][INFO ] 33044 [MainThread][uvicorn.error:103] Started server process [33044]
+[2026-10-21 12:00:20][INFO ] 33044 [MainThread][uvicorn.error:48] Waiting for application startup.
+[2026-10-21 12:00:20][INFO ] 33044 [MainThread][uvicorn.error:62] Application startup complete.
+[2026-10-21 12:00:24][INFO ] 33044 [MainThread][uvicorn.error:282] Shutting down
+[2026-10-21 12:00:24][INFO ] 33044 [MainThread][uvicorn.error:67] Waiting for application shutdown.
+[2026-10-21 12:00:24][INFO ] 33044 [MainThread][uvicorn.error:76] Application shutdown complete.
+[2026-10-21 12:00:24][INFO ] 33044 [MainThread][uvicorn.error:113] Finished server process [33044]
+[2026-10-21 12:01:18][INFO ] 32536 [MainThread][uvicorn.error:103] Started server process [32536]
+[2026-10-21 12:01:18][INFO ] 32536 [MainThread][uvicorn.error:48] Waiting for application startup.
+[2026-10-21 12:01:18][INFO ] 32536 [MainThread][uvicorn.error:62] Application startup complete.
+[2026-10-21 12:01:52][INFO ] 32536 [MainThread][uvicorn.error:282] Shutting down
+[2026-10-21 12:01:52][INFO ] 32536 [MainThread][uvicorn.error:67] Waiting for application shutdown.
+[2026-10-21 12:01:52][INFO ] 32536 [MainThread][uvicorn.error:76] Application shutdown complete.
+[2026-10-21 12:01:52][INFO ] 32536 [MainThread][uvicorn.error:113] Finished server process [32536]
+[2026-10-21 12:01:53][INFO ] 30208 [MainThread][app.factory:30] !!Application: conlabs-python-base
+[2026-10-21 12:01:53][INFO ] 30208 [MainThread][uvicorn.error:103] Started server process [30208]
+[2026-10-21 12:01:53][INFO ] 30208 [MainThread][uvicorn.error:48] Waiting for application startup.
+[2026-10-21 12:01:53][INFO ] 30208 [MainThread][uvicorn.error:62] Application startup complete.
+[2026-10-21 12:02:10][INFO ] 30208 [MainThread][uvicorn.error:282] Shutting down
+[2026-10-21 12:02:10][INFO ] 30208 [MainThread][uvicorn.error:67] Waiting for application shutdown.
+[2026-10-21 12:02:10][INFO ] 30208 [MainThread][uvicorn.error:76] Application shutdown complete.
+[2026-10-21 12:02:10][INFO ] 30208 [MainThread][uvicorn.error:113] Finished server process [30208]
+[2026-10-21 12:02:11][INFO ] 32984 [MainThread][uvicorn.error:103] Started server process [32984]
+[2026-10-21 12:02:11][INFO ] 32984 [MainThread][uvicorn.error:48] Waiting for application startup.
+[2026-10-21 12:02:11][INFO ] 32984 [MainThread][uvicorn.error:62] Application startup complete.
+[2026-10-21 12:57:34][INFO ] 32984 [MainThread][uvicorn.error:282] Shutting down
+[2026-10-21 12:57:35][INFO ] 32984 [MainThread][uvicorn.error:67] Waiting for application shutdown.
+[2026-10-21 12:57:35][INFO ] 32984 [MainThread][uvicorn.error:76] Application shutdown complete.
+[2026-10-21 12:57:35][INFO ] 32984 [MainThread][uvicorn.error:113] Finished server process [32984]
+[2026-10-21 12:57:35][INFO ] 2804 [MainThread][uvicorn.error:103] Started server process [2804]
+[2026-10-21 12:57:35][INFO ] 2804 [MainThread][uvicorn.error:48] Waiting for application startup.
+[2026-10-21 12:57:35][INFO ] 2804 [MainThread][uvicorn.error:62] Application startup complete.
+[2026-10-21 13:15:28][INFO ] 2804 [MainThread][uvicorn.error:282] Shutting down
+[2026-10-21 13:15:28][INFO ] 2804 [MainThread][uvicorn.error:67] Waiting for application shutdown.
+[2026-10-21 13:15:28][INFO ] 2804 [MainThread][uvicorn.error:76] Application shutdown complete.
+[2026-10-21 13:15:28][INFO ] 2804 [MainThread][uvicorn.error:113] Finished server process [2804]
+[2026-10-21 13:15:29][INFO ] 300 [MainThread][uvicorn.error:103] Started server process [300]
+[2026-10-21 13:15:29][INFO ] 300 [MainThread][uvicorn.error:48] Waiting for application startup.
+[2026-10-21 13:15:29][INFO ] 300 [MainThread][uvicorn.error:62] Application startup complete.
+[2026-10-21 13:36:48][INFO ] 300 [MainThread][uvicorn.error:282] Shutting down
+[2026-10-21 13:36:48][INFO ] 300 [MainThread][uvicorn.error:67] Waiting for application shutdown.
+[2026-10-21 13:36:48][INFO ] 300 [MainThread][uvicorn.error:76] Application shutdown complete.
+[2026-10-21 13:36:48][INFO ] 300 [MainThread][uvicorn.error:113] Finished server process [300]
+[2026-10-21 13:36:48][INFO ] 34668 [MainThread][uvicorn.error:103] Started server process [34668]
+[2026-10-21 13:36:48][INFO ] 34668 [MainThread][uvicorn.error:48] Waiting for application startup.
+[2026-10-21 13:36:48][INFO ] 34668 [MainThread][uvicorn.error:62] Application startup complete.
+[2026-10-21 13:38:40][INFO ] 34668 [MainThread][uvicorn.error:282] Shutting down
+[2026-10-21 13:38:40][INFO ] 34668 [MainThread][uvicorn.error:67] Waiting for application shutdown.
+[2026-10-21 13:38:40][INFO ] 34668 [MainThread][uvicorn.error:76] Application shutdown complete.
+[2026-10-21 13:38:40][INFO ] 34668 [MainThread][uvicorn.error:113] Finished server process [34668]
+[2026-10-21 13:38:41][INFO ] 2468 [MainThread][uvicorn.error:103] Started server process [2468]
+[2026-10-21 13:38:41][INFO ] 2468 [MainThread][uvicorn.error:48] Waiting for application startup.
+[2026-10-21 13:38:41][INFO ] 2468 [MainThread][uvicorn.error:62] Application startup complete.
+[2026-10-21 13:39:00][INFO ] 2468 [MainThread][uvicorn.error:282] Shutting down
+[2026-10-21 13:39:00][INFO ] 2468 [MainThread][uvicorn.error:67] Waiting for application shutdown.
+[2026-10-21 13:39:00][INFO ] 2468 [MainThread][uvicorn.error:76] Application shutdown complete.
+[2026-10-21 13:39:00][INFO ] 2468 [MainThread][uvicorn.error:113] Finished server process [2468]
+[2026-10-21 13:39:00][INFO ] 33736 [MainThread][uvicorn.error:103] Started server process [33736]
+[2026-10-21 13:39:00][INFO ] 33736 [MainThread][uvicorn.error:48] Waiting for application startup.
+[2026-10-21 13:39:00][INFO ] 33736 [MainThread][uvicorn.error:62] Application startup complete.
+[2026-10-21 13:41:30][INFO ] 33736 [MainThread][uvicorn.error:282] Shutting down
+[2026-10-21 13:41:30][INFO ] 33736 [MainThread][uvicorn.error:67] Waiting for application shutdown.
+[2026-10-21 13:41:30][INFO ] 33736 [MainThread][uvicorn.error:76] Application shutdown complete.
+[2026-10-21 13:41:30][INFO ] 33736 [MainThread][uvicorn.error:113] Finished server process [33736]
+[2026-10-21 13:41:30][INFO ] 9148 [MainThread][uvicorn.error:103] Started server process [9148]
+[2026-10-21 13:41:30][INFO ] 9148 [MainThread][uvicorn.error:48] Waiting for application startup.
+[2026-10-21 13:41:30][INFO ] 9148 [MainThread][uvicorn.error:62] Application startup complete.
+[2026-10-21 13:44:33][INFO ] 9148 [MainThread][uvicorn.error:282] Shutting down
+[2026-10-21 13:44:33][INFO ] 9148 [MainThread][uvicorn.error:67] Waiting for application shutdown.
+[2026-10-21 13:44:33][INFO ] 9148 [MainThread][uvicorn.error:76] Application shutdown complete.
+[2026-10-21 13:44:33][INFO ] 9148 [MainThread][uvicorn.error:113] Finished server process [9148]
+[2026-10-21 13:44:34][INFO ] 32408 [MainThread][uvicorn.error:103] Started server process [32408]
+[2026-10-21 13:44:34][INFO ] 32408 [MainThread][uvicorn.error:48] Waiting for application startup.
+[2026-10-21 13:44:34][INFO ] 32408 [MainThread][uvicorn.error:62] Application startup complete.
+[2026-10-21 13:44:56][INFO ] 32408 [MainThread][uvicorn.error:282] Shutting down
+[2026-10-21 13:44:57][INFO ] 32408 [MainThread][uvicorn.error:67] Waiting for application shutdown.
+[2026-10-21 13:44:57][INFO ] 32408 [MainThread][uvicorn.error:76] Application shutdown complete.
+[2026-10-21 13:44:57][INFO ] 32408 [MainThread][uvicorn.error:113] Finished server process [32408]
+[2026-10-21 13:44:57][INFO ] 19204 [MainThread][uvicorn.error:103] Started server process [19204]
+[2026-10-21 13:44:57][INFO ] 19204 [MainThread][uvicorn.error:48] Waiting for application startup.
+[2026-10-21 13:44:57][INFO ] 19204 [MainThread][uvicorn.error:62] Application startup complete.
+[2026-10-21 13:56:17][INFO ] 19204 [MainThread][uvicorn.error:282] Shutting down
+[2026-10-21 13:56:17][INFO ] 19204 [MainThread][uvicorn.error:67] Waiting for application shutdown.
+[2026-10-21 13:56:17][INFO ] 19204 [MainThread][uvicorn.error:76] Application shutdown complete.
+[2026-10-21 13:56:17][INFO ] 19204 [MainThread][uvicorn.error:113] Finished server process [19204]
+[2026-10-21 13:56:17][INFO ] 32212 [MainThread][uvicorn.error:103] Started server process [32212]
+[2026-10-21 13:56:17][INFO ] 32212 [MainThread][uvicorn.error:48] Waiting for application startup.
+[2026-10-21 13:56:17][INFO ] 32212 [MainThread][uvicorn.error:62] Application startup complete.
+[2026-10-21 13:56:18][INFO ] 32212 [MainThread][uvicorn.error:282] Shutting down
+[2026-10-21 13:56:18][INFO ] 32212 [MainThread][uvicorn.error:67] Waiting for application shutdown.
+[2026-10-21 13:56:18][INFO ] 32212 [MainThread][uvicorn.error:76] Application shutdown complete.
+[2026-10-21 13:56:18][INFO ] 32212 [MainThread][uvicorn.error:113] Finished server process [32212]
+[2026-10-21 13:56:21][INFO ] 34280 [MainThread][uvicorn.error:103] Started server process [34280]
+[2026-10-21 13:56:21][INFO ] 34280 [MainThread][uvicorn.error:48] Waiting for application startup.
+[2026-10-21 13:56:21][INFO ] 34280 [MainThread][uvicorn.error:62] Application startup complete.
+[2026-10-21 13:56:27][INFO ] 34280 [MainThread][uvicorn.access:477] 127.0.0.1:5155 - "GET /docs HTTP/1.1" 200
+[2026-10-21 13:56:27][INFO ] 34280 [MainThread][uvicorn.access:477] 127.0.0.1:5155 - "GET /openapi.json HTTP/1.1" 200
+[2026-10-21 13:57:13][INFO ] 34280 [MainThread][uvicorn.error:282] Shutting down
+[2026-10-21 13:57:13][INFO ] 34280 [MainThread][uvicorn.error:67] Waiting for application shutdown.
+[2026-10-21 13:57:13][INFO ] 34280 [MainThread][uvicorn.error:76] Application shutdown complete.
+[2026-10-21 13:57:13][INFO ] 34280 [MainThread][uvicorn.error:113] Finished server process [34280]
+[2026-10-21 13:57:13][INFO ] 22628 [MainThread][uvicorn.error:103] Started server process [22628]
+[2026-10-21 13:57:13][INFO ] 22628 [MainThread][uvicorn.error:48] Waiting for application startup.
+[2026-10-21 13:57:13][INFO ] 22628 [MainThread][uvicorn.error:62] Application startup complete.
+[2026-10-21 13:57:15][INFO ] 22628 [MainThread][uvicorn.access:477] 127.0.0.1:4256 - "GET /docs HTTP/1.1" 200
+[2026-10-21 13:57:15][INFO ] 22628 [MainThread][uvicorn.access:477] 127.0.0.1:4256 - "GET /openapi.json HTTP/1.1" 200
+[2026-10-21 13:57:19][WARNING] 22628 [MainThread][app.core.exception.handlers:19] Application exception [%s]: %s
+[2026-10-21 13:57:19][ERROR] 22628 [MainThread][uvicorn.error:428] ASGI callable returned without starting response.
+[2026-10-21 13:57:19][INFO ] 22628 [MainThread][uvicorn.access:477] 127.0.0.1:4256 - "GET /test/error HTTP/1.1" 500
+[2026-10-21 14:00:48][INFO ] 22628 [MainThread][uvicorn.error:282] Shutting down
+[2026-10-21 14:00:48][INFO ] 22628 [MainThread][uvicorn.error:67] Waiting for application shutdown.
+[2026-10-21 14:00:48][INFO ] 22628 [MainThread][uvicorn.error:76] Application shutdown complete.
+[2026-10-21 14:00:48][INFO ] 22628 [MainThread][uvicorn.error:113] Finished server process [22628]
+[2026-10-21 14:00:49][INFO ] 4384 [MainThread][uvicorn.error:103] Started server process [4384]
+[2026-10-21 14:00:49][INFO ] 4384 [MainThread][uvicorn.error:48] Waiting for application startup.
+[2026-10-21 14:00:49][INFO ] 4384 [MainThread][uvicorn.error:62] Application startup complete.
+[2026-10-21 14:00:53][INFO ] 4384 [MainThread][uvicorn.error:282] Shutting down
+[2026-10-21 14:00:53][INFO ] 4384 [MainThread][uvicorn.error:67] Waiting for application shutdown.
+[2026-10-21 14:00:53][INFO ] 4384 [MainThread][uvicorn.error:76] Application shutdown complete.
+[2026-10-21 14:00:53][INFO ] 4384 [MainThread][uvicorn.error:113] Finished server process [4384]
+[2026-10-21 14:00:53][INFO ] 30208 [MainThread][uvicorn.error:103] Started server process [30208]
+[2026-10-21 14:00:53][INFO ] 30208 [MainThread][uvicorn.error:48] Waiting for application startup.
+[2026-10-21 14:00:53][INFO ] 30208 [MainThread][uvicorn.error:62] Application startup complete.
+[2026-10-21 14:00:57][INFO ] 30208 [MainThread][uvicorn.access:477] 127.0.0.1:10026 - "GET /docs HTTP/1.1" 200
+[2026-10-21 14:00:57][INFO ] 30208 [MainThread][uvicorn.access:477] 127.0.0.1:10026 - "GET /openapi.json HTTP/1.1" 200
+[2026-10-21 14:01:00][WARNING] 30208 [MainThread][app.core.exception.handlers:19] Application exception [TE]: 테스트 오류
+[2026-10-21 14:01:00][INFO ] 30208 [MainThread][uvicorn.access:477] 127.0.0.1:10026 - "GET /test/error HTTP/1.1" 500
+[2026-10-21 14:01:00][ERROR] 30208 [MainThread][uvicorn.error:416] Exception in ASGI application
+Traceback (most recent call last):
+  File "D:\broadDev\conlabs-python-base\.venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "D:\broadDev\conlabs-python-base\.venv\Lib\site-packages\fastapi\routing.py", line 152, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "D:\broadDev\conlabs-python-base\.venv\Lib\site-packages\fastapi\routing.py", line 745, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "D:\broadDev\conlabs-python-base\.venv\Lib\site-packages\fastapi\routing.py", line 372, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\broadDev\conlabs-python-base\src\app\modules\sample.py", line 9, in test_error
+    raise AppException(
+    ...<3 lines>...
+    )
+app.core.exception.exceptions.AppException: 테스트 오류
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\broadDev\conlabs-python-base\.venv\Lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 411, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        self.scope, self.receive, self.send
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "D:\broadDev\conlabs-python-base\.venv\Lib\site-packages\uvicorn\middleware\proxy_headers.py", line 63, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\broadDev\conlabs-python-base\.venv\Lib\site-packages\fastapi\applications.py", line 1194, in __call__
+    await super().__call__(scope, receive, send)
+  File "D:\broadDev\conlabs-python-base\.venv\Lib\site-packages\starlette\applications.py", line 96, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "D:\broadDev\conlabs-python-base\.venv\Lib\site-packages\starlette\middleware\errors.py", line 186, in __call__
+    raise exc
+  File "D:\broadDev\conlabs-python-base\.venv\Lib\site-packages\starlette\middleware\errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "D:\broadDev\conlabs-python-base\.venv\Lib\site-packages\fastapi\telemetry\_asgi.py", line 151, in __call__
+    await self.app(scope, receive, send)
+  File "D:\broadDev\conlabs-python-base\.venv\Lib\site-packages\starlette\middleware\exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "D:\broadDev\conlabs-python-base\.venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "D:\broadDev\conlabs-python-base\.venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "D:\broadDev\conlabs-python-base\.venv\Lib\site-packages\fastapi\middleware\asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "D:\broadDev\conlabs-python-base\.venv\Lib\site-packages\starlette\routing.py", line 678, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "D:\broadDev\conlabs-python-base\.venv\Lib\site-packages\fastapi\routing.py", line 2811, in app
+    await route.handle(scope, receive, send)
+  File "D:\broadDev\conlabs-python-base\.venv\Lib\site-packages\fastapi\routing.py", line 1839, in handle
+    await self.original_router.handle(scope, receive, send)
+  File "D:\broadDev\conlabs-python-base\.venv\Lib\site-packages\fastapi\routing.py", line 2894, in handle
+    await included_router._handle_selected(scope, receive, send)
+  File "D:\broadDev\conlabs-python-base\.venv\Lib\site-packages\fastapi\routing.py", line 1865, in _handle_selected
+    await original_route.handle(scope, receive, send)
+  File "D:\broadDev\conlabs-python-base\.venv\Lib\site-packages\fastapi\routing.py", line 1328, in handle
+    await effective_context.app(scope, receive, send)
+  File "D:\broadDev\conlabs-python-base\.venv\Lib\site-packages\fastapi\routing.py", line 166, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "D:\broadDev\conlabs-python-base\.venv\Lib\site-packages\starlette\_exception_handler.py", line 59, in wrapped_app
+    response = await handler(conn, exc)  # type: ignore[arg-type]
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\broadDev\conlabs-python-base\src\app\core\exception\handlers.py", line 32, in app_exception_handler
+    content=response.model_dump(
+            ~~~~~~~~~~~~~~~~~~~^
+        by_alias=True,
+        ^^^^^^^^^^^^^^
+        exclude_none=True,
+        ^^^^^^^^^^^^^^^^^^
+        model="json",
+        ^^^^^^^^^^^^^
+    ),
+    ^
+TypeError: BaseModel.model_dump() got an unexpected keyword argument 'model'. Did you mean 'mode'?
+[2026-10-21 14:01:34][INFO ] 30208 [MainThread][uvicorn.error:282] Shutting down
+[2026-10-21 14:01:34][INFO ] 30208 [MainThread][uvicorn.error:67] Waiting for application shutdown.
+[2026-10-21 14:01:34][INFO ] 30208 [MainThread][uvicorn.error:76] Application shutdown complete.
+[2026-10-21 14:01:34][INFO ] 30208 [MainThread][uvicorn.error:113] Finished server process [30208]
+[2026-10-21 14:01:35][INFO ] 30588 [MainThread][uvicorn.error:103] Started server process [30588]
+[2026-10-21 14:01:35][INFO ] 30588 [MainThread][uvicorn.error:48] Waiting for application startup.
+[2026-10-21 14:01:35][INFO ] 30588 [MainThread][uvicorn.error:62] Application startup complete.
+[2026-10-21 14:01:36][INFO ] 30588 [MainThread][uvicorn.access:477] 127.0.0.1:13194 - "GET /docs HTTP/1.1" 200
+[2026-10-21 14:01:36][INFO ] 30588 [MainThread][uvicorn.access:477] 127.0.0.1:13194 - "GET /openapi.json HTTP/1.1" 200
+[2026-10-21 14:01:38][WARNING] 30588 [MainThread][app.core.exception.handlers:19] Application exception [TE]: 테스트 오류
+[2026-10-21 14:01:38][INFO ] 30588 [MainThread][uvicorn.access:477] 127.0.0.1:13194 - "GET /test/error HTTP/1.1" 400
+[2026-10-21 14:02:48][INFO ] 30588 [MainThread][uvicorn.error:282] Shutting down
+[2026-10-21 14:02:48][INFO ] 30588 [MainThread][uvicorn.error:67] Waiting for application shutdown.
+[2026-10-21 14:02:48][INFO ] 30588 [MainThread][uvicorn.error:76] Application shutdown complete.
+[2026-10-21 14:02:48][INFO ] 30588 [MainThread][uvicorn.error:113] Finished server process [30588]
+[2026-10-21 14:02:48][INFO ] 32136 [MainThread][uvicorn.error:103] Started server process [32136]
+[2026-10-21 14:02:48][INFO ] 32136 [MainThread][uvicorn.error:48] Waiting for application startup.
+[2026-10-21 14:02:48][INFO ] 32136 [MainThread][uvicorn.error:62] Application startup complete.
+[2026-10-21 14:04:49][INFO ] 32136 [MainThread][uvicorn.error:282] Shutting down
+[2026-10-21 14:04:49][INFO ] 32136 [MainThread][uvicorn.error:67] Waiting for application shutdown.
+[2026-10-21 14:04:49][INFO ] 32136 [MainThread][uvicorn.error:76] Application shutdown complete.
+[2026-10-21 14:04:49][INFO ] 32136 [MainThread][uvicorn.error:113] Finished server process [32136]
+[2026-10-21 14:04:49][INFO ] 33696 [MainThread][uvicorn.error:103] Started server process [33696]
+[2026-10-21 14:04:49][INFO ] 33696 [MainThread][uvicorn.error:48] Waiting for application startup.
+[2026-10-21 14:04:49][INFO ] 33696 [MainThread][uvicorn.error:62] Application startup complete.
+[2026-10-21 14:16:56][INFO ] 33696 [MainThread][uvicorn.error:282] Shutting down
+[2026-10-21 14:16:56][INFO ] 33696 [MainThread][uvicorn.error:67] Waiting for application shutdown.
+[2026-10-21 14:16:56][INFO ] 33696 [MainThread][uvicorn.error:76] Application shutdown complete.
+[2026-10-21 14:16:56][INFO ] 33696 [MainThread][uvicorn.error:113] Finished server process [33696]
+[2026-10-21 14:16:57][INFO ] 34464 [MainThread][uvicorn.error:103] Started server process [34464]
+[2026-10-21 14:16:57][INFO ] 34464 [MainThread][uvicorn.error:48] Waiting for application startup.
+[2026-10-21 14:16:57][INFO ] 34464 [MainThread][uvicorn.error:62] Application startup complete.
+[2026-10-21 14:21:35][INFO ] 34464 [MainThread][uvicorn.error:282] Shutting down
+[2026-10-21 14:21:35][INFO ] 34464 [MainThread][uvicorn.error:67] Waiting for application shutdown.
+[2026-10-21 14:21:35][INFO ] 34464 [MainThread][uvicorn.error:76] Application shutdown complete.
+[2026-10-21 14:21:35][INFO ] 34464 [MainThread][uvicorn.error:113] Finished server process [34464]
+[2026-10-21 14:21:36][INFO ] 33552 [MainThread][uvicorn.error:103] Started server process [33552]
+[2026-10-21 14:21:36][INFO ] 33552 [MainThread][uvicorn.error:48] Waiting for application startup.
+[2026-10-21 14:21:36][INFO ] 33552 [MainThread][uvicorn.error:62] Application startup complete.
+[2026-10-21 14:23:23][INFO ] 33552 [MainThread][uvicorn.error:282] Shutting down
+[2026-10-21 14:23:23][INFO ] 33552 [MainThread][uvicorn.error:67] Waiting for application shutdown.
+[2026-10-21 14:23:23][INFO ] 33552 [MainThread][uvicorn.error:76] Application shutdown complete.
+[2026-10-21 14:23:23][INFO ] 33552 [MainThread][uvicorn.error:113] Finished server process [33552]
+[2026-10-21 14:23:23][INFO ] 30384 [MainThread][uvicorn.error:103] Started server process [30384]
+[2026-10-21 14:23:23][INFO ] 30384 [MainThread][uvicorn.error:48] Waiting for application startup.
+[2026-10-21 14:23:23][INFO ] 30384 [MainThread][uvicorn.error:62] Application startup complete.
+[2026-10-21 14:23:24][INFO ] 30384 [MainThread][uvicorn.error:282] Shutting down
+[2026-10-21 14:23:24][INFO ] 30384 [MainThread][uvicorn.error:67] Waiting for application shutdown.
+[2026-10-21 14:23:24][INFO ] 30384 [MainThread][uvicorn.error:76] Application shutdown complete.
+[2026-10-21 14:23:24][INFO ] 30384 [MainThread][uvicorn.error:113] Finished server process [30384]
+[2026-10-21 14:23:25][INFO ] 16756 [MainThread][uvicorn.error:103] Started server process [16756]
+[2026-10-21 14:23:25][INFO ] 16756 [MainThread][uvicorn.error:48] Waiting for application startup.
+[2026-10-21 14:23:25][INFO ] 16756 [MainThread][uvicorn.error:62] Application startup complete.
+[2026-10-21 14:25:32][INFO ] 16756 [MainThread][uvicorn.error:282] Shutting down
+[2026-10-21 14:25:32][INFO ] 16756 [MainThread][uvicorn.error:67] Waiting for application shutdown.
+[2026-10-21 14:25:32][INFO ] 16756 [MainThread][uvicorn.error:76] Application shutdown complete.
+[2026-10-21 14:25:32][INFO ] 16756 [MainThread][uvicorn.error:113] Finished server process [16756]
+[2026-10-21 14:25:32][INFO ] 27220 [MainThread][uvicorn.error:103] Started server process [27220]
+[2026-10-21 14:25:32][INFO ] 27220 [MainThread][uvicorn.error:48] Waiting for application startup.
+[2026-10-21 14:25:32][INFO ] 27220 [MainThread][uvicorn.error:62] Application startup complete.
+[2026-10-21 14:25:40][INFO ] 27220 [MainThread][uvicorn.error:282] Shutting down
+[2026-10-21 14:25:41][INFO ] 27220 [MainThread][uvicorn.error:67] Waiting for application shutdown.
+[2026-10-21 14:25:41][INFO ] 27220 [MainThread][uvicorn.error:76] Application shutdown complete.
+[2026-10-21 14:25:41][INFO ] 27220 [MainThread][uvicorn.error:113] Finished server process [27220]
+[2026-10-21 14:25:41][INFO ] 15444 [MainThread][uvicorn.error:103] Started server process [15444]
+[2026-10-21 14:25:41][INFO ] 15444 [MainThread][uvicorn.error:48] Waiting for application startup.
+[2026-10-21 14:25:41][INFO ] 15444 [MainThread][uvicorn.error:62] Application startup complete.
+[2026-10-21 14:29:14][INFO ] 15444 [MainThread][uvicorn.error:282] Shutting down
+[2026-10-21 14:29:15][INFO ] 15444 [MainThread][uvicorn.error:67] Waiting for application shutdown.
+[2026-10-21 14:29:15][INFO ] 15444 [MainThread][uvicorn.error:76] Application shutdown complete.
+[2026-10-21 14:29:15][INFO ] 15444 [MainThread][uvicorn.error:113] Finished server process [15444]
+[2026-10-21 14:30:13][INFO ] 12920 [MainThread][uvicorn.error:103] Started server process [12920]
+[2026-10-21 14:30:13][INFO ] 12920 [MainThread][uvicorn.error:48] Waiting for application startup.
+[2026-10-21 14:30:13][INFO ] 12920 [MainThread][uvicorn.error:62] Application startup complete.
+[2026-10-21 14:30:13][INFO ] 12920 [MainThread][uvicorn.access:477] 127.0.0.1:1615 - "GET /docs HTTP/1.1" 200
+[2026-10-21 14:30:13][INFO ] 12920 [MainThread][uvicorn.access:477] 127.0.0.1:1615 - "GET /openapi.json HTTP/1.1" 200
+[2026-10-21 14:30:17][WARNING] 12920 [MainThread][app.core.exception.handlers:62] HTTP exception [403] GET /test/http-error: 접근권한 없음
+[2026-10-21 14:30:17][INFO ] 12920 [MainThread][uvicorn.access:477] 127.0.0.1:1615 - "GET /test/http-error HTTP/1.1" 500
+[2026-10-21 14:30:17][ERROR] 12920 [MainThread][uvicorn.error:416] Exception in ASGI application
+Traceback (most recent call last):
+  File "D:\broadDev\conlabs-python-base\.venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "D:\broadDev\conlabs-python-base\.venv\Lib\site-packages\fastapi\routing.py", line 152, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "D:\broadDev\conlabs-python-base\.venv\Lib\site-packages\fastapi\routing.py", line 745, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "D:\broadDev\conlabs-python-base\.venv\Lib\site-packages\fastapi\routing.py", line 372, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\broadDev\conlabs-python-base\src\app\modules\sample.py", line 23, in test_http_error
+    raise HTTPException(
+    ...<2 lines>...
+    )
+fastapi.exceptions.HTTPException: 403: 접근권한 없음
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\broadDev\conlabs-python-base\.venv\Lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 411, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        self.scope, self.receive, self.send
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "D:\broadDev\conlabs-python-base\.venv\Lib\site-packages\uvicorn\middleware\proxy_headers.py", line 63, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\broadDev\conlabs-python-base\.venv\Lib\site-packages\fastapi\applications.py", line 1194, in __call__
+    await super().__call__(scope, receive, send)
+  File "D:\broadDev\conlabs-python-base\.venv\Lib\site-packages\starlette\applications.py", line 96, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "D:\broadDev\conlabs-python-base\.venv\Lib\site-packages\starlette\middleware\errors.py", line 186, in __call__
+    raise exc
+  File "D:\broadDev\conlabs-python-base\.venv\Lib\site-packages\starlette\middleware\errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "D:\broadDev\conlabs-python-base\.venv\Lib\site-packages\fastapi\telemetry\_asgi.py", line 151, in __call__
+    await self.app(scope, receive, send)
+  File "D:\broadDev\conlabs-python-base\.venv\Lib\site-packages\starlette\middleware\exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "D:\broadDev\conlabs-python-base\.venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "D:\broadDev\conlabs-python-base\.venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "D:\broadDev\conlabs-python-base\.venv\Lib\site-packages\fastapi\middleware\asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "D:\broadDev\conlabs-python-base\.venv\Lib\site-packages\starlette\routing.py", line 678, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "D:\broadDev\conlabs-python-base\.venv\Lib\site-packages\fastapi\routing.py", line 2811, in app
+    await route.handle(scope, receive, send)
+  File "D:\broadDev\conlabs-python-base\.venv\Lib\site-packages\fastapi\routing.py", line 1839, in handle
+    await self.original_router.handle(scope, receive, send)
+  File "D:\broadDev\conlabs-python-base\.venv\Lib\site-packages\fastapi\routing.py", line 2894, in handle
+    await included_router._handle_selected(scope, receive, send)
+  File "D:\broadDev\conlabs-python-base\.venv\Lib\site-packages\fastapi\routing.py", line 1865, in _handle_selected
+    await original_route.handle(scope, receive, send)
+  File "D:\broadDev\conlabs-python-base\.venv\Lib\site-packages\fastapi\routing.py", line 1328, in handle
+    await effective_context.app(scope, receive, send)
+  File "D:\broadDev\conlabs-python-base\.venv\Lib\site-packages\fastapi\routing.py", line 166, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "D:\broadDev\conlabs-python-base\.venv\Lib\site-packages\starlette\_exception_handler.py", line 59, in wrapped_app
+    response = await handler(conn, exc)  # type: ignore[arg-type]
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\broadDev\conlabs-python-base\src\app\core\exception\handlers.py", line 70, in http_exception_handler
+    return error_json_response(
+        code=f"HTTP_{exc.status_code}",
+    ...<6 lines>...
+        headers=exc.headers
+    )
+  File "D:\broadDev\conlabs-python-base\src\app\core\exception\handlers.py", line 24, in error_json_response
+    code-code,
+    ~~~~^~~~~
+TypeError: unsupported operand type(s) for -: 'str' and 'str'
+[2026-10-21 14:32:21][INFO ] 12920 [MainThread][uvicorn.error:282] Shutting down
+[2026-10-21 14:32:21][INFO ] 12920 [MainThread][uvicorn.error:67] Waiting for application shutdown.
+[2026-10-21 14:32:21][INFO ] 12920 [MainThread][uvicorn.error:76] Application shutdown complete.
+[2026-10-21 14:32:21][INFO ] 12920 [MainThread][uvicorn.error:113] Finished server process [12920]
+[2026-10-21 14:32:21][INFO ] 30656 [MainThread][uvicorn.error:103] Started server process [30656]
+[2026-10-21 14:32:21][INFO ] 30656 [MainThread][uvicorn.error:48] Waiting for application startup.
+[2026-10-21 14:32:21][INFO ] 30656 [MainThread][uvicorn.error:62] Application startup complete.
+[2026-10-21 14:32:24][INFO ] 30656 [MainThread][uvicorn.access:477] 127.0.0.1:1203 - "GET /docs HTTP/1.1" 200
+[2026-10-21 14:32:24][INFO ] 30656 [MainThread][uvicorn.access:477] 127.0.0.1:1203 - "GET /openapi.json HTTP/1.1" 200
+[2026-10-21 14:32:29][WARNING] 30656 [MainThread][app.core.exception.handlers:62] HTTP exception [403] GET /test/http-error: 접근권한 없음
+[2026-10-21 14:32:29][INFO ] 30656 [MainThread][uvicorn.access:477] 127.0.0.1:4295 - "GET /test/http-error HTTP/1.1" 403
+[2026-10-21 14:32:54][INFO ] 30656 [MainThread][uvicorn.access:477] 127.0.0.1:4740 - "POST /test/valid-error HTTP/1.1" 200
+[2026-10-21 14:33:08][WARNING] 30656 [MainThread][app.core.exception.handlers:95] Request validation failed [POST /test/valid-error]: [{'field': 'body.name', 'message': 'Input should be a valid string', 'type': 'string_type'}, {'field': 'body.age', 'message': 'Input should be a valid integer, unable to parse string as an integer', 'type': 'int_parsing'}]
+[2026-10-21 14:33:08][INFO ] 30656 [MainThread][uvicorn.access:477] 127.0.0.1:3122 - "POST /test/valid-error HTTP/1.1" 422
+[2026-10-21 14:33:25][INFO ] 30656 [MainThread][uvicorn.access:477] 127.0.0.1:8260 - "GET /test/server-error HTTP/1.1" 500
+[2026-10-21 14:33:25][ERROR] 30656 [MainThread][uvicorn.error:416] Exception in ASGI application
+Traceback (most recent call last):
+  File "D:\broadDev\conlabs-python-base\.venv\Lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 411, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        self.scope, self.receive, self.send
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "D:\broadDev\conlabs-python-base\.venv\Lib\site-packages\uvicorn\middleware\proxy_headers.py", line 63, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\broadDev\conlabs-python-base\.venv\Lib\site-packages\fastapi\applications.py", line 1194, in __call__
+    await super().__call__(scope, receive, send)
+  File "D:\broadDev\conlabs-python-base\.venv\Lib\site-packages\starlette\applications.py", line 96, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "D:\broadDev\conlabs-python-base\.venv\Lib\site-packages\starlette\middleware\errors.py", line 186, in __call__
+    raise exc
+  File "D:\broadDev\conlabs-python-base\.venv\Lib\site-packages\starlette\middleware\errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "D:\broadDev\conlabs-python-base\.venv\Lib\site-packages\fastapi\telemetry\_asgi.py", line 151, in __call__
+    await self.app(scope, receive, send)
+  File "D:\broadDev\conlabs-python-base\.venv\Lib\site-packages\starlette\middleware\exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "D:\broadDev\conlabs-python-base\.venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "D:\broadDev\conlabs-python-base\.venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "D:\broadDev\conlabs-python-base\.venv\Lib\site-packages\fastapi\middleware\asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "D:\broadDev\conlabs-python-base\.venv\Lib\site-packages\starlette\routing.py", line 678, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "D:\broadDev\conlabs-python-base\.venv\Lib\site-packages\fastapi\routing.py", line 2811, in app
+    await route.handle(scope, receive, send)
+  File "D:\broadDev\conlabs-python-base\.venv\Lib\site-packages\fastapi\routing.py", line 1839, in handle
+    await self.original_router.handle(scope, receive, send)
+  File "D:\broadDev\conlabs-python-base\.venv\Lib\site-packages\fastapi\routing.py", line 2894, in handle
+    await included_router._handle_selected(scope, receive, send)
+  File "D:\broadDev\conlabs-python-base\.venv\Lib\site-packages\fastapi\routing.py", line 1865, in _handle_selected
+    await original_route.handle(scope, receive, send)
+  File "D:\broadDev\conlabs-python-base\.venv\Lib\site-packages\fastapi\routing.py", line 1328, in handle
+    await effective_context.app(scope, receive, send)
+  File "D:\broadDev\conlabs-python-base\.venv\Lib\site-packages\fastapi\routing.py", line 166, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "D:\broadDev\conlabs-python-base\.venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "D:\broadDev\conlabs-python-base\.venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "D:\broadDev\conlabs-python-base\.venv\Lib\site-packages\fastapi\routing.py", line 152, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "D:\broadDev\conlabs-python-base\.venv\Lib\site-packages\fastapi\routing.py", line 745, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "D:\broadDev\conlabs-python-base\.venv\Lib\site-packages\fastapi\routing.py", line 372, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\broadDev\conlabs-python-base\src\app\modules\sample.py", line 34, in test_server_error
+    raise RuntimeError("Internal Server Error")
+RuntimeError: Internal Server Error
+[2026-10-21 14:45:10][INFO ] 30656 [MainThread][uvicorn.error:282] Shutting down
+[2026-10-21 14:45:10][INFO ] 30656 [MainThread][uvicorn.error:67] Waiting for application shutdown.
+[2026-10-21 14:45:10][INFO ] 30656 [MainThread][uvicorn.error:76] Application shutdown complete.
+[2026-10-21 14:45:10][INFO ] 30656 [MainThread][uvicorn.error:113] Finished server process [30656]
+[2026-10-21 14:45:13][INFO ] 2880 [MainThread][uvicorn.error:103] Started server process [2880]
+[2026-10-21 14:45:13][INFO ] 2880 [MainThread][uvicorn.error:48] Waiting for application startup.
+[2026-10-21 14:45:13][INFO ] 2880 [MainThread][uvicorn.error:62] Application startup complete.
+[2026-10-21 14:45:15][INFO ] 2880 [MainThread][uvicorn.access:477] 127.0.0.1:1823 - "GET /docs HTTP/1.1" 200
+[2026-10-21 14:45:15][INFO ] 2880 [MainThread][uvicorn.access:477] 127.0.0.1:1823 - "GET /openapi.json HTTP/1.1" 200
+[2026-10-21 14:45:17][ERROR] 2880 [MainThread][app.core.exception.handlers:114] Unhandled exception [GET /test/server-error]
+Traceback (most recent call last):
+  File "D:\broadDev\conlabs-python-base\.venv\Lib\site-packages\starlette\middleware\errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "D:\broadDev\conlabs-python-base\.venv\Lib\site-packages\fastapi\telemetry\_asgi.py", line 151, in __call__
+    await self.app(scope, receive, send)
+  File "D:\broadDev\conlabs-python-base\.venv\Lib\site-packages\starlette\middleware\exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "D:\broadDev\conlabs-python-base\.venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "D:\broadDev\conlabs-python-base\.venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "D:\broadDev\conlabs-python-base\.venv\Lib\site-packages\fastapi\middleware\asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "D:\broadDev\conlabs-python-base\.venv\Lib\site-packages\starlette\routing.py", line 678, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "D:\broadDev\conlabs-python-base\.venv\Lib\site-packages\fastapi\routing.py", line 2811, in app
+    await route.handle(scope, receive, send)
+  File "D:\broadDev\conlabs-python-base\.venv\Lib\site-packages\fastapi\routing.py", line 1839, in handle
+    await self.original_router.handle(scope, receive, send)
+  File "D:\broadDev\conlabs-python-base\.venv\Lib\site-packages\fastapi\routing.py", line 2894, in handle
+    await included_router._handle_selected(scope, receive, send)
+  File "D:\broadDev\conlabs-python-base\.venv\Lib\site-packages\fastapi\routing.py", line 1865, in _handle_selected
+    await original_route.handle(scope, receive, send)
+  File "D:\broadDev\conlabs-python-base\.venv\Lib\site-packages\fastapi\routing.py", line 1328, in handle
+    await effective_context.app(scope, receive, send)
+  File "D:\broadDev\conlabs-python-base\.venv\Lib\site-packages\fastapi\routing.py", line 166, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "D:\broadDev\conlabs-python-base\.venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "D:\broadDev\conlabs-python-base\.venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "D:\broadDev\conlabs-python-base\.venv\Lib\site-packages\fastapi\routing.py", line 152, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "D:\broadDev\conlabs-python-base\.venv\Lib\site-packages\fastapi\routing.py", line 745, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "D:\broadDev\conlabs-python-base\.venv\Lib\site-packages\fastapi\routing.py", line 372, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\broadDev\conlabs-python-base\src\app\modules\sample.py", line 34, in test_server_error
+    raise RuntimeError("Internal Server Error")
+RuntimeError: Internal Server Error
+[2026-10-21 14:45:17][INFO ] 2880 [MainThread][uvicorn.access:477] 127.0.0.1:1823 - "GET /test/server-error HTTP/1.1" 500
+[2026-10-21 14:45:17][ERROR] 2880 [MainThread][uvicorn.error:416] Exception in ASGI application
+Traceback (most recent call last):
+  File "D:\broadDev\conlabs-python-base\.venv\Lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 411, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        self.scope, self.receive, self.send
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "D:\broadDev\conlabs-python-base\.venv\Lib\site-packages\uvicorn\middleware\proxy_headers.py", line 63, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\broadDev\conlabs-python-base\.venv\Lib\site-packages\fastapi\applications.py", line 1194, in __call__
+    await super().__call__(scope, receive, send)
+  File "D:\broadDev\conlabs-python-base\.venv\Lib\site-packages\starlette\applications.py", line 96, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "D:\broadDev\conlabs-python-base\.venv\Lib\site-packages\starlette\middleware\errors.py", line 186, in __call__
+    raise exc
+  File "D:\broadDev\conlabs-python-base\.venv\Lib\site-packages\starlette\middleware\errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "D:\broadDev\conlabs-python-base\.venv\Lib\site-packages\fastapi\telemetry\_asgi.py", line 151, in __call__
+    await self.app(scope, receive, send)
+  File "D:\broadDev\conlabs-python-base\.venv\Lib\site-packages\starlette\middleware\exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "D:\broadDev\conlabs-python-base\.venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "D:\broadDev\conlabs-python-base\.venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "D:\broadDev\conlabs-python-base\.venv\Lib\site-packages\fastapi\middleware\asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "D:\broadDev\conlabs-python-base\.venv\Lib\site-packages\starlette\routing.py", line 678, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "D:\broadDev\conlabs-python-base\.venv\Lib\site-packages\fastapi\routing.py", line 2811, in app
+    await route.handle(scope, receive, send)
+  File "D:\broadDev\conlabs-python-base\.venv\Lib\site-packages\fastapi\routing.py", line 1839, in handle
+    await self.original_router.handle(scope, receive, send)
+  File "D:\broadDev\conlabs-python-base\.venv\Lib\site-packages\fastapi\routing.py", line 2894, in handle
+    await included_router._handle_selected(scope, receive, send)
+  File "D:\broadDev\conlabs-python-base\.venv\Lib\site-packages\fastapi\routing.py", line 1865, in _handle_selected
+    await original_route.handle(scope, receive, send)
+  File "D:\broadDev\conlabs-python-base\.venv\Lib\site-packages\fastapi\routing.py", line 1328, in handle
+    await effective_context.app(scope, receive, send)
+  File "D:\broadDev\conlabs-python-base\.venv\Lib\site-packages\fastapi\routing.py", line 166, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "D:\broadDev\conlabs-python-base\.venv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "D:\broadDev\conlabs-python-base\.venv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "D:\broadDev\conlabs-python-base\.venv\Lib\site-packages\fastapi\routing.py", line 152, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "D:\broadDev\conlabs-python-base\.venv\Lib\site-packages\fastapi\routing.py", line 745, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "D:\broadDev\conlabs-python-base\.venv\Lib\site-packages\fastapi\routing.py", line 372, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\broadDev\conlabs-python-base\src\app\modules\sample.py", line 34, in test_server_error
+    raise RuntimeError("Internal Server Error")
+RuntimeError: Internal Server Error
+[2026-10-21 14:47:01][INFO ] 2880 [MainThread][uvicorn.error:282] Shutting down
+[2026-10-21 14:47:01][INFO ] 2880 [MainThread][uvicorn.error:67] Waiting for application shutdown.
+[2026-10-21 14:47:01][INFO ] 2880 [MainThread][uvicorn.error:76] Application shutdown complete.
+[2026-10-21 14:47:01][INFO ] 2880 [MainThread][uvicorn.error:113] Finished server process [2880]
+[2026-10-21 16:59:23][INFO ] 20368 [MainThread][uvicorn.error:103] Started server process [20368]
+[2026-10-21 16:59:23][INFO ] 20368 [MainThread][uvicorn.error:48] Waiting for application startup.
+[2026-10-21 16:59:23][ERROR] 20368 [MainThread][uvicorn.error:121] Traceback (most recent call last):
+  File "D:\broadDev\conlabs-python-base\.venv\Lib\site-packages\starlette\routing.py", line 656, in lifespan
+    async with self.lifespan_context(app) as maybe_state:
+               ~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\shud8\AppData\Local\Python\pythoncore-3.14-64\Lib\contextlib.py", line 214, in __aenter__
+    return await anext(self.gen)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\broadDev\conlabs-python-base\.venv\Lib\site-packages\fastapi\routing.py", line 248, in merged_lifespan
+    async with original_context(app) as maybe_original_state:
+               ~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\shud8\AppData\Local\Python\pythoncore-3.14-64\Lib\contextlib.py", line 214, in __aenter__
+    return await anext(self.gen)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\broadDev\conlabs-python-base\src\app\factory.py", line 28, in lifespan
+    engine = create_db_engine(
+        database_url=settings.database_url,
+        echo=settings.database_echo,
+    )
+  File "D:\broadDev\conlabs-python-base\src\app\core\database\engine.py", line 8, in create_db_engine
+    return create_async_engine(
+        database_url=database_url, # DBMS 접속정보 URL
+        echo=echo, # SQL 로그 출력 여부
+        pool_pre_ping=True, # 풀에서 꺼낼 때 유효성 확인
+    )
+TypeError: create_async_engine() missing 1 required positional argument: 'url'
+
+[2026-10-21 16:59:23][ERROR] 20368 [MainThread][uvicorn.error:59] Application startup failed. Exiting.
+[2026-10-21 16:59:44][INFO ] 25152 [MainThread][uvicorn.error:103] Started server process [25152]
+[2026-10-21 16:59:44][INFO ] 25152 [MainThread][uvicorn.error:48] Waiting for application startup.
+[2026-10-21 16:59:44][ERROR] 25152 [MainThread][uvicorn.error:121] Traceback (most recent call last):
+  File "D:\broadDev\conlabs-python-base\.venv\Lib\site-packages\starlette\routing.py", line 656, in lifespan
+    async with self.lifespan_context(app) as maybe_state:
+               ~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\shud8\AppData\Local\Python\pythoncore-3.14-64\Lib\contextlib.py", line 214, in __aenter__
+    return await anext(self.gen)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\broadDev\conlabs-python-base\.venv\Lib\site-packages\fastapi\routing.py", line 248, in merged_lifespan
+    async with original_context(app) as maybe_original_state:
+               ~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\shud8\AppData\Local\Python\pythoncore-3.14-64\Lib\contextlib.py", line 214, in __aenter__
+    return await anext(self.gen)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\broadDev\conlabs-python-base\src\app\factory.py", line 28, in lifespan
+    engine = create_db_engine(
+        database_url=settings.database_url,
+        echo=settings.database_echo,
+    )
+  File "D:\broadDev\conlabs-python-base\src\app\core\database\engine.py", line 8, in create_db_engine
+    return create_async_engine(
+        database_url=database_url, # DBMS 접속정보 URL
+        echo=echo, # SQL 로그 출력 여부
+        pool_pre_ping=True, # 풀에서 꺼낼 때 유효성 확인
+    )
+TypeError: create_async_engine() missing 1 required positional argument: 'url'
+
+[2026-10-21 16:59:44][ERROR] 25152 [MainThread][uvicorn.error:59] Application startup failed. Exiting.
+[2026-10-21 17:00:18][INFO ] 21384 [MainThread][uvicorn.error:103] Started server process [21384]
+[2026-10-21 17:00:18][INFO ] 21384 [MainThread][uvicorn.error:48] Waiting for application startup.
+[2026-10-21 17:00:18][ERROR] 21384 [MainThread][uvicorn.error:121] Traceback (most recent call last):
+  File "D:\broadDev\conlabs-python-base\.venv\Lib\site-packages\starlette\routing.py", line 656, in lifespan
+    async with self.lifespan_context(app) as maybe_state:
+               ~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\shud8\AppData\Local\Python\pythoncore-3.14-64\Lib\contextlib.py", line 214, in __aenter__
+    return await anext(self.gen)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\broadDev\conlabs-python-base\.venv\Lib\site-packages\fastapi\routing.py", line 248, in merged_lifespan
+    async with original_context(app) as maybe_original_state:
+               ~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\shud8\AppData\Local\Python\pythoncore-3.14-64\Lib\contextlib.py", line 214, in __aenter__
+    return await anext(self.gen)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\broadDev\conlabs-python-base\src\app\factory.py", line 28, in lifespan
+    engine = create_db_engine(
+        database_url=settings.database_url,
+        echo=settings.database_echo,
+    )
+  File "D:\broadDev\conlabs-python-base\src\app\core\database\engine.py", line 8, in create_db_engine
+    return create_async_engine(
+        url=database_url, # DBMS 접속정보 URL
+        echo=echo, # SQL 로그 출력 여부
+        pool_pre_ping=True, # 풀에서 꺼낼 때 유효성 확인
+    )
+  File "D:\broadDev\conlabs-python-base\.venv\Lib\site-packages\sqlalchemy\ext\asyncio\engine.py", line 126, in create_async_engine
+    sync_engine = _create_engine(url, **kw)
+  File "<sqlalchemy generated warned() wrapper for sqlalchemy.engine.create.create_engine>", line 2, in create_engine
+    return target(fn, url, **kwargs)
+  File "D:\broadDev\conlabs-python-base\.venv\Lib\site-packages\sqlalchemy\util\deprecations.py", line 281, in warned
+    return fn(*args, **kwargs)  # type: ignore[no-any-return]
+  File "D:\broadDev\conlabs-python-base\.venv\Lib\site-packages\sqlalchemy\engine\create.py", line 602, in create_engine
+    dbapi = dbapi_meth(**dbapi_args)
+  File "D:\broadDev\conlabs-python-base\.venv\Lib\site-packages\sqlalchemy\dialects\sqlite\aiosqlite.py", line 328, in import_dbapi
+    __import__("aiosqlite"), __import__("sqlite3")
+    ~~~~~~~~~~^^^^^^^^^^^^^
+ModuleNotFoundError: No module named 'aiosqlite'
+
+[2026-10-21 17:00:18][ERROR] 21384 [MainThread][uvicorn.error:59] Application startup failed. Exiting.
+[2026-10-21 17:03:23][INFO ] 10220 [MainThread][uvicorn.error:103] Started server process [10220]
+[2026-10-21 17:03:23][INFO ] 10220 [MainThread][uvicorn.error:48] Waiting for application startup.
+[2026-10-21 17:03:23][INFO ] 10220 [MainThread][uvicorn.error:62] Application startup complete.
+[2026-10-21 17:03:43][INFO ] 10220 [MainThread][uvicorn.error:282] Shutting down
+[2026-10-21 17:03:43][INFO ] 10220 [MainThread][uvicorn.error:67] Waiting for application shutdown.
+[2026-10-21 17:03:43][INFO ] 10220 [MainThread][uvicorn.error:76] Application shutdown complete.
+[2026-10-21 17:03:43][INFO ] 10220 [MainThread][uvicorn.error:113] Finished server process [10220]
