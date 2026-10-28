@@ -8,6 +8,7 @@ from sqlalchemy.ext.asyncio import async_engine_from_config
 
 from app.core.config import get_settings
 from app.core.database.base import Base
+from app.modules.todo import models as todo_models  # noqa: F401 — Alembic metadata 등록
 
 config = context.config
 

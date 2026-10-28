@@ -7,6 +7,7 @@ if [[ ! -f .env ]]; then
 fi
 
 DB_URL=$(sed -n 's/^DATABASE_URL=//p' .env | tail -n 1)
+SERVER_PORT=${SERVER_PORT:-8000}
 
 case "$DB_URL" in
     sqlite+aiosqlite:*)
@@ -26,4 +27,5 @@ esac
 
 echo "[INFO] Selected DB extra: $DB_EXTRA"
 
-exec uv run --extra "$DB_EXTRA" uvicorn app.main:app --reload
+exec uv run --extra "$DB_EXTRA" uvicorn app.main:app \
+    --app-dir src --reload --port "$SERVER_PORT"

@@ -2,6 +2,7 @@
 setlocal EnableExtensions EnableDelayedExpansion
 
 set "DB_EXTRA="
+set "SERVER_PORT=8000"
 
 if not exist ".env" (
     echo [ERROR] .env file not found.
@@ -11,6 +12,9 @@ if not exist ".env" (
 for /f "usebackq tokens=1,* delims==" %%A in (".env") do (
     if /i "%%A"=="DATABASE_URL" (
         set "DB_URL=%%B"
+    )
+    if /i "%%A"=="SERVER_PORT" (
+        set "SERVER_PORT=%%B"
     )
 )
 
@@ -38,6 +42,6 @@ if not defined DB_EXTRA (
 
 echo [INFO] Selected DB extra: !DB_EXTRA!
 
-uv run --extra !DB_EXTRA! uvicorn app.main:app --reload
+uv run --extra !DB_EXTRA! uvicorn app.main:app --reload --port "!SERVER_PORT!"
 
 endlocal

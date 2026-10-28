@@ -218,3 +218,35 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Project-local environment variants (keep shareable templates)
+.env.*
+!.env.example
+!.env.*.example
+!.env.template
+
+# Application logs, rotations and concurrent-log-handler lock files
+/logs/
+
+# Local SQLite databases and their sidecar files
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+*.sqlite
+*.sqlite-journal
+*.sqlite-wal
+*.sqlite-shm
+*.sqlite3
+*.sqlite3-journal
+*.sqlite3-wal
+*.sqlite3-shm
+
+# Local tool caches and scratch files
+.uv-cache/
+/work/
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+Desktop.ini
