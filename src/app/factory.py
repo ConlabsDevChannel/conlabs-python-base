@@ -1,6 +1,7 @@
 import logging
 
 from contextlib import asynccontextmanager
+from collections.abc import AsyncGenerator
 
 from fastapi import FastAPI, HTTPException
 from fastapi.exceptions import RequestValidationError
@@ -30,7 +31,9 @@ from app.router import router as api_router
 logger = logging.getLogger(__name__)
 
 @asynccontextmanager
-async def lifespan(app: FastAPI):
+async def lifespan(
+    app: FastAPI
+) -> AsyncGenerator[None, None]:
     settings = get_settings()
 
     # 마이그레이션은 DB엔진 생성 전
