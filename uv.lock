@@ -187,6 +187,7 @@ dependencies = [
     { name = "concurrent-log-handler" },
     { name = "fastapi" },
     { name = "httpx" },
+    { name = "httpx2" },
     { name = "pydantic-settings" },
     { name = "pytest" },
     { name = "sqlalchemy", extra = ["asyncio"] },
@@ -206,7 +207,6 @@ sqlite = [
 
 [package.dev-dependencies]
 dev = [
-    { name = "httpx2" },
     { name = "pytest-asyncio" },
 ]
 
@@ -222,6 +222,7 @@ requires-dist = [
     { name = "concurrent-log-handler", specifier = ">=0.9.30" },
     { name = "fastapi", specifier = ">=0.156.4" },
     { name = "httpx", specifier = ">=0.28.1" },
+    { name = "httpx2", specifier = ">=2.15.1" },
     { name = "pydantic-settings", specifier = ">=2.16.1" },
     { name = "pytest", specifier = ">=9.1.1" },
     { name = "sqlalchemy", extras = ["asyncio"], specifier = ">=2.1.5" },
@@ -230,10 +231,7 @@ requires-dist = [
 provides-extras = ["sqlite", "mysql", "postgres"]
 
 [package.metadata.requires-dev]
-dev = [
-    { name = "httpx2", specifier = ">=2.15.1" },
-    { name = "pytest-asyncio", specifier = ">=1.4.1" },
-]
+dev = [{ name = "pytest-asyncio", specifier = ">=1.4.1" }]
 
 [[package]]
 name = "fastapi"

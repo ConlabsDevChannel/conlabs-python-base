@@ -1,4 +1,5 @@
 from functools import lru_cache
+from pydantic import Field
 from pydantic_settings import BaseSettings, SettingsConfigDict
 
 #BaseSettings: 환경변수 및 .env에서 설정을 읽고 타입 검증
@@ -29,6 +30,13 @@ class Settings(BaseSettings):
     # CORS 설정
     cors_origins: list[str] = [] # 허용할 Front 주소 목록
     cors_allow_credentials: bool = False # 쿠키 등의 자격 증명 포함한 교차 출처 요청 허용 여부
+
+    # 인증
+    auth_session_enabled: bool = False
+    auth_session_ttl_seconds: int = Field(
+        default=3600,
+        gt=0,
+    )
 
     #SettingsConfigDict: 설정파일을 읽는 방식 정의
     model_config = SettingsConfigDict(

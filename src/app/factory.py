@@ -3,6 +3,8 @@ import logging
 from contextlib import asynccontextmanager
 from collections.abc import AsyncGenerator
 
+from datetime import timedelta
+
 from fastapi import FastAPI, HTTPException
 from fastapi.exceptions import RequestValidationError
 
@@ -23,6 +25,9 @@ from app.core.middleware.cors import setup_core
 from app.core.middleware.trace import setup_tracing
 
 from app.core.http.client import create_http_client
+
+from app.core.auth.db_store import DatabaseSessionStore
+from app.core.auth.service import SessionService
 
 from app.health import router as health_router
 # 공용 라우터 등록
@@ -47,6 +52,20 @@ async def lifespan(
     )
 
     app.state.db_session_factory = create_session_factory(engine)
+
+    app.state.auth_session_service = None
+
+    if settings.auth_session_enabled:
+        store = DatabaseSessionStore(
+            session_factory=app.state.db_session_factory,
+        )
+
+        app.state.auth_session_service = SessionService(
+            store=store,
+            ttl=timedelta(
+                seconds=settings.auth_session_ttl_seconds,
+            ),
+        )
 
     # DB lifespan에 연결
     async with create_http_client(
